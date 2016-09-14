@@ -1,0 +1,18 @@
+package paquete;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x[][];
+		x = new int[3][3];
+		x[0][0] = 1;
+		x[0][1] = 2;
+		x[0][2] = 3;
+		x[1][0] = 4;
+		
+		System.out.println("x[0][1] = " +  x[0][1]);
+	}
+
+}
